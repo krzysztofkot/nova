@@ -1,0 +1,15 @@
+.text{
+
+    &__title{
+        font-weight: bold;
+        font-size: 4.6rem;
+    }
+
+    &__paragraph{
+        line-height: 1.8em;
+        letter-spacing:.14rem;
+        font-size: 2rem;
+        width: 65%;
+        // background-color: green;
+    }
+}

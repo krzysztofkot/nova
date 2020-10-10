@@ -1,0 +1,18 @@
+.nav{
+
+    &__element{
+        &, &:link, &:visited{
+            font-size: 1.8rem;
+                text-decoration: none;
+                color: $color-white;
+                font-weight: bold;
+                word-spacing: 6px;
+
+
+        }
+        &:not(:last-child){
+            padding-right: 3rem;
+        }
+    }
+
+}

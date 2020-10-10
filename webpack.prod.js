@@ -15,7 +15,7 @@ module.exports = merge(common, {
         new CleanWebpackPlugin(),
         new CopyWebpackPlugin({
             patterns: [
-                { from: 'src/images', to: 'images' },
+                { from: 'src/assets/', to: 'assets' },
             ],
             options: {
                 concurrency: 100,

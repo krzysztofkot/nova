@@ -7,8 +7,8 @@
 @import "components/text";
 
 @import "layout/header";
+@import "layout/features";
+@import "layout/footer";
 @import "layout/nav";
-
-.header {
-    background-image: url('../assets/images/logos.png');
-}
+@import "layout/pricing";
+@import "layout/team";

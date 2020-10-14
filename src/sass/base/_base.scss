@@ -1,33 +1,59 @@
-// @font-face {
-//     font-family: 'montserratregular';
-//     src: url('../assets/fonts/montserrat-regular-webfont.woff') format('woff2'),
-//         url('../assets/fonts/montserrat-regular-webfont.woff') format('woff');
-//     font-weight: normal;
-//     font-style: normal;
+@font-face {
+  font-family: "montserratregular";
+  src: url("../assets/fonts/montserrat-regular-webfont.woff") format("woff2"),
+    url("../assets/fonts/montserrat-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
 
-// }
+@font-face {
+  font-family: "montserratbold";
+  src: url("../assets/fonts/montserrat-bold-webfont.woff2") format("woff2"),
+    url("../assets/fonts/montserrat-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "montserratlight";
+  src: url("../assets/fonts/montserrat-light-webfont.woff2") format("woff2"),
+    url("../assets/fonts/montserrat-light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "montserratthin";
+  src: url("../assets/fonts/montserrat-thin-webfont.woff2") format("woff2"),
+    url("../assets/fonts/montserrat-thin-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "montserratsemibold";
+  src: url("../assets/fonts/montserrat-semibold-webfont.woff2") format("woff2"),
+    url("../assets/fonts/montserrat-semibold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
 
 *,
 *::before,
 *::after {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-html{
-    font-size: 10px;
+html {
+  font-size: 10px;
 }
 
 body {
-    //     font-family: 'montserratregular', sans-serif;
-    font-family: 'Montserrat', sans-serif;
+  font-family: "montserratregular", sans-serif;
 }
 
-
-//////////////////////////////
-.testing__purposes{
-width: 100%;
-height: 1000px;
-background-image: url('../assets/images/screen.png');
+main {
+  //   max-width: 120rem;
 }

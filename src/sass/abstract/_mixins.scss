@@ -1,4 +1,9 @@
 @mixin flex-space-between {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
+}
+
+@mixin max-size {
+  max-width: 120rem;
+  margin: 0 auto;
 }

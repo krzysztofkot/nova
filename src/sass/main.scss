@@ -2,8 +2,12 @@
 @import "abstract/variables";
 
 @import "base/base";
+@import "base/utilities";
 
 @import "components/btn";
+@import "components/card";
+@import "components/member";
+@import "components/social";
 @import "components/text";
 
 @import "layout/header";
@@ -11,4 +15,5 @@
 @import "layout/footer";
 @import "layout/nav";
 @import "layout/pricing";
+@import "layout/simple";
 @import "layout/team";

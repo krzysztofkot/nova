@@ -1,4 +1,8 @@
-.pricing{
-    height: 100vh;
-    background-color: greenyellow;
+.pricing {
+  //   height: 100vh;
+  background-color: $color-grey-2;
+
+  &__header {
+    text-align: center;
+  }
 }

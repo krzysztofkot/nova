@@ -1,0 +1,59 @@
+.card {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+
+  &__element {
+    height: 50rem;
+    flex-basis: 25%;
+    min-width: 35rem;
+    text-align: center;
+    border-radius: 1rem;
+    padding: 6rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 9rem 0 12rem 0;
+    transition: all 0.3s linear;
+
+    &:hover {
+      box-shadow: 0 0 5rem rgba($color-black, 0.2);
+      transform: scale(1.05);
+    }
+
+    &--active {
+      //   box-shadow: 0 0 5rem rgba($color-black, 0.2);
+    }
+  }
+
+  &__description {
+  }
+
+  &__package {
+    text-transform: uppercase;
+    font-size: 2.2rem;
+    font-family: "montserratlight", sans-serif;
+    margin: 1.5rem 0 2.2rem 0;
+  }
+
+  &__value {
+    font-size: 6rem;
+  }
+
+  &__subtitle {
+    font-size: 1.5rem;
+    margin: 1.3rem 0 4rem;
+    font-family: "montserratsemibold", sans-serif;
+  }
+
+  &__para {
+    font-size: 1.8rem;
+    line-height: 140%;
+    font-family: "montserratsemibold", sans-serif;
+  }
+
+  &__value {
+    font-family: "montserratbold", sans-serif;
+  }
+}

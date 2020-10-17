@@ -1,0 +1,18 @@
+.simple {
+  @include max-size;
+  @include flex-space-between;
+  background-color: red;
+
+  &__image {
+    margin: 5rem 10rem 0 auto;
+    width: 55%;
+    height: auto;
+    background-color: green;
+  }
+
+  &__article {
+    flex-basis: 40%;
+    margin-right: auto;
+    background-color: blue;
+  }
+}

@@ -1,0 +1,35 @@
+.social {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+  &__icon {
+    margin: 0 0.8rem;
+    width: 1.8rem;
+    height: 1.8rem;
+    -webkit-mask-size: contain;
+    mask-size: contain;
+    -webkit-mask-position: center;
+    mask-position: center;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+
+    cursor: pointer;
+    &--twitter {
+      background-color: $color-grey-3;
+      -webkit-mask-image: url("../assets/images/twitter.svg");
+      mask-image: url("../assets/images/twitter.svg");
+      &:hover {
+        background-color: #1da1f2;
+      }
+    }
+    &--facebook {
+      background-color: $color-grey-3;
+      -webkit-mask-image: url("../assets/images/facebook.svg");
+      mask-image: url("../assets/images/facebook.svg");
+
+      &:hover {
+        background-color: #4267b2;
+      }
+    }
+  }
+}

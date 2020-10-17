@@ -1,4 +1,13 @@
-.team{
-    height: 90vh;
-    background-color: orangered;
+.team {
+  height: 90vh;
+  text-align: center;
+  // background-color: orangered;
+
+  &__members {
+    display: flex;
+    justify-content: center;
+    // justify-content: space-around;
+
+    flex-wrap: wrap;
+  }
 }

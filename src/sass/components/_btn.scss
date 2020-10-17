@@ -1,22 +1,27 @@
-.btn{
-    margin-top: 5rem;
-    border: none;
-    padding: 2rem 6rem;
-    border-radius: 1rem;
-    font-size: 1.8rem;
-    font-weight: bold;
-    outline: none;
-    cursor: pointer;
+.btn {
+  margin-top: 4rem;
+  border: none;
+  padding: 2.2rem 5.5rem;
+  border-radius: 1.2rem;
+  font-size: 1.8rem;
+  //   font-weight: bold;
+  outline: none;
+  cursor: pointer;
+  color: $color-white;
+  box-sizing: content-box;
+  transition: all 0.3s;
+  font-family: "montserratlight", sans-serif;
 
-    &--green{
-        box-sizing: content-box;
-        background-color: $color-green;
-        color: $color-white;
-        transition: all .3s;
+  &--green {
+    background-color: $color-green;
 
-        &:focus{
-            background-color: $color-green-active;
-            // border: 1px solid black;
-        }
+    &:focus {
+      background-color: $color-green-active;
+      // border: 1px solid black;
     }
+  }
+
+  &--blue {
+    background-color: $color-blue;
+  }
 }

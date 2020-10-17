@@ -1,59 +1,59 @@
-.features{
+.features {
+  background-color: $color-black;
 
-    &__main-content{
-        background-color: $color-black;
-        height: 100vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
+  &__main-content {
+    @include max-size;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
 
-    }
+  &__container {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
 
-    &__container{
-        flex-grow: 1;
-        display: flex;
-        justify-content: center;
-    }
-
-    &__companies{
-        background-color: $color-gray;
-        padding: 1.5rem;
-        text-align: center;
-    }
+  &__companies {
+    background-color: $color-grey;
+    padding: 1.5rem;
+    text-align: center;
+  }
 }
 
-.feature{
-   
-&__element{
-flex-basis: 25.5%;
+.feature {
+  &__element {
+    width: 25%;
+    min-width: 40rem;
 
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-items: center;
-padding:0 3rem;
-}
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    padding: 0 3rem 15rem 3rem;
+  }
 
-    &__icon{
+  &__icon {
+    background-color: $color-white;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    width: 10rem;
+    height: 10rem;
+    background-size: 3rem;
+    background-position: center;
 
-        background-color: $color-white;
-        background-repeat: no-repeat;
-        border-radius: 50%;
-        width:10rem;
-        height: 10rem;
-        background-size: 3rem;
-        background-position: center;
-
-        &--phone{
-            background-image: url('../assets/images/responsive.svg');
-        }
-
-        &--tools{
-            background-image: url('../assets/images/customizable.svg');
-        }
-
-        &--design{
-            background-image: url('../assets/images/design.svg');
-        }
+    &--phone {
+      background-image: url("../assets/images/responsive.svg");
     }
+
+    &--tools {
+      background-image: url("../assets/images/customizable.svg");
+    }
+
+    &--design {
+      background-image: url("../assets/images/design.svg");
+    }
+  }
 }

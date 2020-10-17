@@ -1,39 +1,39 @@
 .header {
-    height: 100vh;
-    width: 100%;
-    background-image: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+  height: 100vh;
+  padding: 0 3rem;
+  width: 100%;
+  background-image: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
 
-    &__container {
-        margin: 0 auto;
-        max-width: 120rem;
-        color: white;
-        &--left{
-            flex-basis: 45%;
-            flex-shrink: 0;
-        }
-        &--right{
-            flex-grow: 1;
-        }
+  &__container {
+    margin: 0 auto;
+    max-width: 120rem;
+    color: white;
+    &--left {
+      flex-basis: 45%;
+      flex-shrink: 0;
     }
-
-    &__top-bar {
-
-        padding-top: 5.5rem;
-        height: 10%;
-        @include flex-space-between;
+    &--right {
+      flex-grow: 1;
     }
+  }
 
-    &__main-content {
-        @include flex-space-between;
-        margin-top: 5rem;
-    }
+  &__top-bar {
+    padding-top: 5.5rem;
+    height: 10%;
+    @include flex-space-between;
+  }
 
-    &__img{
-        max-width: 100%;
-        background-color: $color-white;
-        border: $color-white 2rem solid;
-        border-radius: 2rem;
-        box-shadow: inset 1rem 0 0 $color-white;
-        transform: rotate(-6deg);
-    }
+  &__main-content {
+    @include flex-space-between;
+    margin-top: 5rem;
+  }
+
+  &__img {
+    max-width: 100%;
+    background-color: $color-white;
+    border: $color-white 2rem solid;
+    border-radius: 2rem;
+    box-shadow: inset 1rem 0 0 $color-white;
+    transform: rotate(-6deg);
+  }
 }

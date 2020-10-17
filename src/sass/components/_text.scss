@@ -1,46 +1,50 @@
-.text{
+.text {
+  &__header {
+    font-family: "montserratbold", sans-serif;
+    font-size: 4.6rem;
+    margin-bottom: 3rem;
+  }
 
-    &__header{
-        font-weight: bold;
-        font-size: 4.6rem;
-        margin-bottom: 3rem;
+  &__title {
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    padding: 8rem 0;
+    font-family: "montserratthin", sans-serif;
+
+    &--white {
+      color: $color-white;
     }
 
-    &__title{
-        text-align: center;
-        font-size: 3.8rem;
-        text-transform: uppercase;
-        padding: 8rem 0;
-
-        &--white{
-            color: $color-white;
-        }
+    &--black {
+      color: $color-black;
     }
+  }
 
-    &__subtitle{
-        font-size: 1.6rem;
-        word-spacing: .5rem;
-        text-transform: uppercase;
-        color: $color-white;
-        margin:  3rem 0 1.5rem 0;
-        padding: 0 2rem;
-        text-align: center;
-    }
-
-    &__head-paragraph{
-        line-height: 1.8em;
-        letter-spacing:.14rem;
-        font-size: 2rem;
-        width: 65%;
-    }
-
-    &__paragraph{
-        line-height: 160%;
+  &__subtitle {
     font-size: 1.6rem;
-    text-align: center;
+    word-spacing: 0.5rem;
+    text-transform: uppercase;
+    color: $color-white;
+    margin: 3rem 0 1.5rem 0;
+    padding: 0 2rem;
+  }
 
-        &--white{
-            color: $color-white;
-        }
+  &__head-paragraph {
+    line-height: 1.8em;
+    letter-spacing: 0.14rem;
+    font-size: 2rem;
+  }
+
+  &__paragraph {
+    line-height: 160%;
+    font-size: 1.6rem;
+
+    &--white {
+      color: $color-white;
     }
+
+    &--black {
+      color: $color-black;
+    }
+  }
 }
